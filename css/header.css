@@ -216,10 +216,6 @@
   position: relative;
 }
 
-.nav .right a:nth-child(5):hover ul > li {
-  color: red;
-}
-
 .nav .right a:nth-child(5):hover .gwc {
   display: block;
 }

@@ -1,0 +1,77 @@
+.scllo .xioaxiu {
+  display: inline-block;
+  position: fixed;
+  bottom: 200px;
+  right: -9%;
+  transition: 1s;
+  cursor: pointer;
+  height: 180px;
+  width: 230px;
+}
+
+.scllo .xioaxiu:hover {
+  right: 0;
+  transition: 1s;
+}
+
+.scllo .xioaxiu img {
+  height: 180px;
+  width: 230px;
+}
+
+.scllo .kf {
+  width: 76px;
+  height: 76px;
+  position: fixed;
+  bottom: 120px;
+  right: 0;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scllo .kf p {
+  margin-top: 10px;
+  background: url(../img/icons_1.png) no-repeat 59.328% 4.762%;
+  width: 32px;
+  height: 27px;
+  display: inline-block;
+}
+
+.scllo .kf p:hover {
+  background: url(../img/icons_1.png) no-repeat 59.328% 95.604%;
+}
+
+.scllo .kf a {
+  color: #3e3e3e;
+  font-size: 12px;
+}
+
+.scllo .huigun {
+  width: 76px;
+  height: 76px;
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.scllo .huigun p {
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.scllo .huigun p img {
+  width: 32px;
+  height: 32px;
+}
+
+.scllo .huigun a {
+  color: #3e3e3e;
+  font-size: 12px;
+}

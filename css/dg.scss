@@ -1,0 +1,146 @@
+body{
+    .section{
+        background-color: white;
+        .center{
+            background-color: #f8f8f8;
+            padding: 20px;
+            .bb{
+                width: 100%;
+            }
+            .kwgg{
+                width: 100%;
+                background-color: white;
+                text-align: left;
+                margin-top: 30px;
+                padding: 20px 15px;
+                font-size: 13px;
+                span{
+                    margin-right: 30px;
+                    &:first-child{
+                        margin-bottom: 15px;
+                        display: inline-block;
+                    }
+                }
+                a{
+                    margin-right: 30px;
+                   color: black;
+                   &:hover{
+                       color: red;
+                   }
+                
+                }
+            }
+           
+                .card {
+                    width: 100%;
+                    background-color: white;
+                    overflow: hidden;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding-top: 10px;
+        
+                    .dg-box {
+                        width: 274px;
+                        padding: 5px;
+                        position: relative;
+                        cursor: pointer;
+                        transition: 1s;
+                        &:hover .box img{
+                            transform: scale(1.1);
+                            transition: 1s;
+                        }
+                        .box {
+                            height: 274px;
+                            width: 274px;
+                            display: inline-block;
+                            // position: absolute;
+                            transition: 1s;
+                            overflow: hidden;
+                            img {
+                                height: 274px;
+                                width: 274px;
+                                transition: 1s;
+                               
+                            }
+                        }
+                        a{
+                            color: red;
+                            font-size: 13px;
+                           margin-bottom: 20px;
+                           display: inline-block;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                            &::before{
+                                content: "";
+                                display: inline-block;
+                                background: url(../img/icons_5.png) no-repeat -108px -28px;
+                                width: 24px;
+                                height: 24px;
+                                transform: scale(0.6);
+                                float: left;
+                            }
+                        }
+                      
+        
+                        h4 {
+                            margin-top: 20px;
+                            margin-bottom: 10px;
+                            font-weight: normal;
+        
+                        }
+        
+                        h5 {
+                            margin-bottom: 10px;
+                            font-weight: normal;
+                        }
+        
+                        h6 {
+                            // margin-bottom: 25px;
+                            font-weight: normal;
+                            font-size: 14px;
+                        }
+        
+                        &:hover {
+                            background-color: rgba($color: #FFECEC, $alpha: 1.0);
+                            transition: 1s;
+                        }
+        
+                        // &:hover .menb {
+                        //     background-color: rgba(255, 255, 255, 0.3);
+                        //     z-index: 53;
+                        //     transition: 1s;
+                        // }
+        
+                        p {
+                            // display: inline-block;   
+                            width: 75px;
+                            height: 74px;
+                            background: url(../img/cornerMark.png) no-repeat;
+                            // background-position: 0px 10px;
+                            // transform: rotate(60deg);
+                            // transform-origin: left center;
+                            position: absolute;
+                            top: 4px;
+                            left: 4px;
+                            z-index: 50;
+        
+                            span {
+                                transform: rotate(312deg);
+                                display: inline-block;
+                                position: absolute;
+                                top: 16px;
+                                left: 16px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+                
+            
+            .footer{
+                // top: 70px;
+            }
+        }
+    }}
